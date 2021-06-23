@@ -1,7 +1,7 @@
 flask_app_name: resource_hub
 flask_user: flask
 flask_home: /opt/
-flask_repo: https://github.com/tonykay/resource_hub.git  
+flask_repo: https://github.com/Chandu-Unique/resource_hub.git  
 flask_scm_ref: main  
 flask_app_lauch_script: /usr/local/bin/launch_resource_hub   
 virtualenv_name: "venv-{{ flask_app_name }}"  
@@ -26,6 +26,6 @@ pip_dependencies:
 #  - psycopg2-binary
 
 
-postgres_rhel7_repo: "https://download.postgresql.org/pub/repos/yum/10/redhat/rhel-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm"
+postgres_rhel7_repo: "https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm"
 postgres_library: python-psycopg2
 
